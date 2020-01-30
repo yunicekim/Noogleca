@@ -1,0 +1,69 @@
+.app-header {
+    height: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+.app-title {
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.5em;
+    font-family: "GungSeo";
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.app-branding {
+    float: left;
+}
+
+.app-options {
+    float: right;
+}
+
+.app-nav ul {
+    list-style-position: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.app-nav ul li a {
+    line-height: 60px;
+    vertical-align: middle;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    height: 38px;
+}
+
+.app-nav ul li button {
+    vertical-align: middle;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    height: 38px;
+    text-transform: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.app-nav ul li a:hover {
+    background-color: grey;
+}
+
+.app-nav ul li a.active {
+    color: #0f96f6;
+}
+
+.app-top-box {
+    background-color: darkorange;
+}
+
+/* 추가된 css */
